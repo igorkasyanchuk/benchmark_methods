@@ -47,6 +47,18 @@ class User < ActiveRecord::Base
   end
 end
 ```
+
+**Sample Output:**
+
+```
+  --> User.create_user_and_comments
+      user     system      total        real
+  0.010000   0.000000   0.010000 (  0.006721)
+  --> User create_test_friend
+      user     system      total        real
+  0.000000   0.000000   0.000000 (  0.000681)
+```
+
 Gem allows to **benchmark ruby methods** (instance and class methods).
 
 ### Functionality
