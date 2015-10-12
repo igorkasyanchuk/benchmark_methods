@@ -5,15 +5,15 @@ require 'benchmark_methods/version'
 module BenchmarkMethods
 
   def self.included(base_klass)
-    base_klass.extend(ClassMethods)
-    unless Object.const_defined?("#{base_klass.name.demodulize}Interceptor")
+    unless const_defined?("#{base_klass.name.demodulize}Interceptor")
+      base_klass.extend(ClassMethods)
       interceptor = const_set("#{base_klass.name.demodulize}Interceptor", Module.new)
       base_klass.send(:prepend, interceptor)
     end
   end
 
   def self.log(report)
-    if Object.const_defined?("Rails")
+    if const_defined?("Rails")
       Rails.logger.debug("  --> #{report.label}")
       Rails.logger.debug("#{Benchmark::CAPTION}#{report.to_s}")
     else
