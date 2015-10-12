@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["igorkasyanchuk@gmail.com"]
 
   spec.summary       = %q{Measure and benchmark execution time of your ruby methods}
-  spec.description   = %q{Measure and benchmark execution time of your ruby methods. Forgot about `Time.now - t`. Use `benchmark` to see how much time it take to execute your method.}
+  spec.description   = %q{Measure and benchmark execution time of your ruby methods. Forgot about `Time.now - t` solution. Use `benchmark` to see how much time it take sto execute your method.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

@@ -1,6 +1,12 @@
 # BenchMarkMethods
 
+Measure and benchmark execution time of your ruby methods. Forgot about `Time.now - t` solution. Use `benchmark` to see how much time it takes to execute your method.
+
+[![Build Status](https://travis-ci.org/igorkasyanchuk/benchmark_methods.svg?branch=master)](https://travis-ci.org/igorkasyanchuk/benchmark_methods)
+
 Sample or usage:
+
+[![Sample](https://raw.githubusercontent.com/igorkasyanchuk/benchmark_methods/master/benchmark_methods.png)](https://raw.githubusercontent.com/igorkasyanchuk/benchmark_methods/master/benchmark_methods.png)
 
 ## Installation
 
