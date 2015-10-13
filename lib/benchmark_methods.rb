@@ -1,8 +1,10 @@
 require 'securerandom'
 require 'benchmark'
+require_relative 'string_ext.rb'
 require 'benchmark_methods/version'
 
 module BenchmarkMethods
+  using StringExt
 
   def self.included(base_klass)
     unless const_defined?("#{base_klass.name.demodulize}Interceptor")
