@@ -4,12 +4,11 @@ require_relative 'string_ext.rb'
 require 'benchmark_methods/version'
 
 module BenchmarkMethods
-  using StringExt
 
   def self.included(base_klass)
-    unless const_defined?("#{base_klass.name.demodulize}Interceptor")
+    unless const_defined?("#{base_klass.name.demodulize_for_bm}Interceptor")
       base_klass.extend(ClassMethods)
-      interceptor = const_set("#{base_klass.name.demodulize}Interceptor", Module.new)
+      interceptor = const_set("#{base_klass.name.demodulize_for_bm}Interceptor", Module.new)
       base_klass.send(:prepend, interceptor)
     end
   end
@@ -42,7 +41,7 @@ module BenchmarkMethods
   module ClassMethods
 
     def cbenchmark(*cmethods)
-      interceptor = const_get("#{name.demodulize}Interceptor")
+      interceptor = const_get("#{name.demodulize_for_bm}Interceptor")
       klass = const_get(name)
       helper = const_set("BenchmarkMethods#{SecureRandom.hex}Helper", Module.new)
       cmethods.each do |method_name|
@@ -62,7 +61,7 @@ module BenchmarkMethods
     end
 
     def benchmark(*cmethods)
-      interceptor = const_get("#{name.demodulize}Interceptor")
+      interceptor = const_get("#{name.demodulize_for_bm}Interceptor")
       klass = const_get(name)
       cmethods.each do |method_name|
         interceptor.module_eval do
