@@ -1,6 +1,6 @@
 # BenchMarkMethods
 
-Measure and benchmark execution time of your ruby methods. Forgot about `Time.now - t` solution. Use `benchmark` to see how much time it takes to execute your method.
+Measure and benchmark execution time of your ruby methods. Forget about `Time.now - t` solution. Use `benchmark` to see how much time it takes to execute your method.
 
 [![Build Status](https://travis-ci.org/igorkasyanchuk/benchmark_methods.svg?branch=master)](https://travis-ci.org/igorkasyanchuk/benchmark_methods)
 [![Gem Version](https://badge.fury.io/rb/benchmark_methods.svg)](https://badge.fury.io/rb/benchmark_methods)
@@ -72,7 +72,7 @@ Gem allows to **benchmark ruby methods** (instance and class methods).
 
 `include BenchmarkMethods` - put in your classes, models to add support for benchmarks
 
-`benchmark :method_name` - benchmark your insatance method.
+`benchmark :method_name` - benchmark your instance method.
 
 `cbenchmark :method_name` - benchmark your class method.
 
