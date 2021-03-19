@@ -5,6 +5,7 @@ Measure and benchmark execution time of your ruby methods. Forget about `Time.no
 [![Build Status](https://travis-ci.org/igorkasyanchuk/benchmark_methods.svg?branch=master)](https://travis-ci.org/igorkasyanchuk/benchmark_methods)
 [![Gem Version](https://badge.fury.io/rb/benchmark_methods.svg)](https://badge.fury.io/rb/benchmark_methods)
 [![RailsJazz](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/my_other.svg?raw=true)](https://www.railsjazz.com)
+[![https://www.patreon.com/igorkasyanchuk](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/patron.svg?raw=true)](https://www.patreon.com/igorkasyanchuk)
 
 Sample or usage:
 
