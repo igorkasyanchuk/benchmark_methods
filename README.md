@@ -97,4 +97,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 5. Create a new Pull Request
 
 [<img src="https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/more_gems.png?raw=true"
-/>](https://www.railsjazz.com/)
+/>](https://www.railsjazz.com/?utm_source=github&utm_medium=bottom&utm_campaign=benchmark_methods)
