@@ -4,10 +4,15 @@ Measure and benchmark execution time of your ruby methods. Forget about `Time.no
 
 [![Build Status](https://travis-ci.org/igorkasyanchuk/benchmark_methods.svg?branch=master)](https://travis-ci.org/igorkasyanchuk/benchmark_methods)
 [![Gem Version](https://badge.fury.io/rb/benchmark_methods.svg)](https://badge.fury.io/rb/benchmark_methods)
-[![RailsJazz](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/my_other.svg?raw=true)](https://www.railsjazz.com)
+[![My other gems](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/my_other.svg?raw=true)](https://www.igorkasyanchuk.com/)
 [![https://www.patreon.com/igorkasyanchuk](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/patron.svg?raw=true)](https://www.patreon.com/igorkasyanchuk)
 
-[!["Buy Me A Coffee"](https://github.com/igorkasyanchuk/get-smart/blob/main/docs/snapshot-bmc-button-small.png?raw=true)](https://buymeacoffee.com/igorkasyanchuk)
+<a href="https://igorkasyanchuk.com/apps?ref=benchmark_methods">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://igorkasyanchuk.com/versions/v1/banner-dark.svg">
+    <img src="https://igorkasyanchuk.com/versions/v1/banner-light.svg" width="720" alt="More tools from the author: Laki, DiffNotes and more. See all projects at igorkasyanchuk.com/apps">
+  </picture>
+</a>
 
 Sample or usage:
 
@@ -99,6 +104,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 5. Create a new Pull Request
 
 [<img src="https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/more_gems.png?raw=true"
-/>](https://www.railsjazz.com/?utm_source=github&utm_medium=bottom&utm_campaign=benchmark_methods)
-
-[!["Buy Me A Coffee"](https://github.com/igorkasyanchuk/get-smart/blob/main/docs/snapshot-bmc-button.png?raw=true)](https://buymeacoffee.com/igorkasyanchuk)
+/>](https://www.igorkasyanchuk.com/)
